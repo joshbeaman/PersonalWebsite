@@ -1,0 +1,161 @@
+/*Color Palette:
+    Background Color: 
+        Cream: #FBEEC1
+    Other colors:
+        Green: #8D9741
+        Blue: #659DBD
+        Reddish Brown: #DAAD86
+        Light Brown: #BC986A
+*/
+
+.top-bar {
+    height: 10px; 
+    background-color: #8D9741; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    z-index: 999;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FBEEC1; 
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #778493;
+}
+
+.social img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.Intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px; 
+    
+}
+
+.profile-photo {
+    float: left; 
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    justify-content: left;
+}
+
+.text-container {
+    overflow: hidden; 
+}
+
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #659DBD; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #4d7f9e;
+}
+.about-button {
+    background-color: #659DBD; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-button:hover {
+    background-color: #4d7f9e; 
+}
+.newsletter-button {
+    background-color: #659DBD; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.newsletter-button:hover {
+    background-color: #4d7f9e; 
+}
+/* 
+
+*/
